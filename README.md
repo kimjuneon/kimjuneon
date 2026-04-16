@@ -1,5 +1,5 @@
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=rounded&color=auto&height=120&text=Hello%20world!&animation=fadeIn&fontColor=000000&fontSize=40" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=120&text=&animation=&fontColor=000000&fontSize=40" />
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 자기소개 제목 </h2>  
