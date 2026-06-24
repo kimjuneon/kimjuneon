@@ -4,8 +4,8 @@
 
 ### Backend developer who enjoys building reliable services
 
-I am learning and building around Java, Spring Boot, REST APIs, databases, and deployment.
-I care about readable code, clear API contracts, and making small services work end to end.
+Java와 Spring Boot를 중심으로 안정적인 서버와 API를 만드는 백엔드 개발자입니다.
+읽기 쉬운 코드, 명확한 API 계약, 실제로 끝까지 동작하는 서비스를 중요하게 생각합니다.
 
 [![GitHub followers](https://img.shields.io/github/followers/kimjuneon?style=social)](https://github.com/kimjuneon?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=kimjuneon&style=flat-square&color=0f766e)](https://github.com/kimjuneon)
@@ -16,10 +16,10 @@ I care about readable code, clear API contracts, and making small services work 
 
 ## About Me
 
-- Backend-focused developer based at Konkuk University
-- Interested in service architecture, CRUD applications, authentication, and deployment
-- Currently sharpening Java, Spring Boot, MySQL, Docker, and cloud fundamentals
-- I like turning ideas into working products and improving them step by step
+- 건국대학교에서 백엔드 개발을 중심으로 공부하고 있습니다.
+- 서비스 구조, REST API, 인증/인가, 데이터베이스 설계에 관심이 많습니다.
+- Java, Spring Boot, MySQL, Docker, AWS 기반 배포 역량을 꾸준히 키우고 있습니다.
+- 아이디어를 실제 동작하는 서비스로 만들고, 작은 개선을 반복하는 과정을 좋아합니다.
 
 ## Tech Stack
 
@@ -49,9 +49,10 @@ I care about readable code, clear API contracts, and making small services work 
 
 | Project | Description | Stack |
 | --- | --- | --- |
-| [money-hunter](https://github.com/kimjuneon/money-hunter) | Java and web-based full-stack project | Java, JavaScript, HTML, CSS, Docker |
-| [MoneyRocket](https://github.com/kimjuneon/MoneyRocket) | Web application project with backend and frontend code | Java, JavaScript, HTML, CSS, Docker |
-| [miniBoard](https://github.com/kimjuneon/miniBoard) | Simple CRUD feature utilization project | Java, HTML |
+| [쿠링](https://github.com/ku-ring/ku-ring-backend-web) | 건국대학교 공지 알림 서비스의 API 서버 프로젝트 | Java, Spring Boot |
+| [만나봄](https://github.com/mannabom/mannabomServer) | 사용자 매칭과 서비스 운영 흐름을 다루는 서버 프로젝트 | Java, Spring Boot, Docker |
+| [머니헌터](https://github.com/kimjuneon/money-hunter) | 금융/자산 관리 아이디어를 기반으로 만든 웹 서비스 프로젝트 | Java, JavaScript, HTML, CSS, Docker |
+| [trade-service](https://github.com/89-49/trade-service) | 거래 도메인을 담당하는 마이크로서비스 프로젝트 | Java, Spring Boot, Docker |
 
 ## GitHub Stats
 
@@ -65,14 +66,14 @@ I care about readable code, clear API contracts, and making small services work 
 ## Focus
 
 ```text
-Java / Spring Boot    REST API design        MySQL schema design
-Docker basics         GitHub Actions         Cloud deployment
+Java / Spring Boot    REST API 설계        MySQL 스키마 설계
+Docker 기본기         GitHub Actions       클라우드 배포
 ```
 
 ---
 
 <div align="center">
 
-Thanks for visiting. I am steadily building, learning, and improving.
+방문해주셔서 감사합니다. 꾸준히 만들고, 배우고, 더 나은 개발자가 되겠습니다.
 
 </div>
