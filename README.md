@@ -1,10 +1,11 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=180&color=0:1E293B,100:0F766E&text=kimjuneon&fontColor=FFFFFF&fontSize=42&fontAlignY=35&desc=Backend%20Developer%20%7C%20Java%20%26%20Spring&descAlignY=58&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=waving&height=180&color=0:1E293B,100:0F766E&text=kimjuneon&fontColor=FFFFFF&fontSize=42&fontAlignY=35&desc=Backend%20Developer%20%7C%20Java%20and%20Spring&descAlignY=58&descAlign=50)
 
 ### Backend developer who enjoys building reliable services
 
 Java와 Spring Boot를 중심으로 안정적인 서버와 API를 만드는 백엔드 개발자입니다.
+
 읽기 쉬운 코드, 명확한 API 계약, 실제로 끝까지 동작하는 서비스를 중요하게 생각합니다.
 
 [![GitHub followers](https://img.shields.io/github/followers/kimjuneon?style=social)](https://github.com/kimjuneon?tab=followers)
