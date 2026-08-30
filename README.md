@@ -16,7 +16,7 @@
 
 <h2 align="center">Focus</h2>
 
-<table width="100%">
+<table width="100%" align="center">
   <tr>
     <td width="50%" align="center"><strong>Data & Events</strong><br />대량 데이터 · 이벤트 정합성</td>
     <td width="50%" align="center"><strong>Architecture</strong><br />Hexagonal · Port/Adapter</td>
@@ -49,7 +49,7 @@
 
 <h2 align="center">Projects</h2>
 
-<table width="100%">
+<table width="100%" align="center">
   <tr>
     <td width="50%" align="center" valign="top">
       <h3><a href="https://github.com/kimjuneon/money-hunter">머니헌터</a></h3>
@@ -84,7 +84,7 @@
 
 <h2 align="center">Learning & Writing</h2>
 
-<table width="100%">
+<table width="100%" align="center">
   <tr>
     <td width="50%" align="center">
       <strong><a href="https://github.com/kimjuneon/TIL">Today I Learned →</a></strong><br />
