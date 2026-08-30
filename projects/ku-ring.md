@@ -1,12 +1,8 @@
-<div align="center">
+<p align="center">
+  <a href="https://github.com/ku-ring/ku-ring-backend-web"><img src="../assets/project-ku-ring.svg" width="100%" alt="쿠링" /></a>
+</p>
 
-# 쿠링
-
-건국대학교 공지를 수집·검색하고 Firebase FCM으로 알림을 전달하는 API 서버
-
-**[저장소 ↗](https://github.com/ku-ring/ku-ring-backend-web)** · **[← 프로필](../README.md)**
-
-</div>
+<p align="center"><strong><a href="https://github.com/ku-ring/ku-ring-backend-web">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
 
 | 문제 | 해결 | 결과 |
 | :---: | :---: | :---: |

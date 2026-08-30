@@ -1,12 +1,8 @@
-<div align="center">
+<p align="center">
+  <a href="https://github.com/mannabom/mannabomServer"><img src="../assets/project-mannabom.svg" width="100%" alt="만나봄" /></a>
+</p>
 
-# 만나봄
-
-프로필·연애관 기반 매칭 이후의 호감, 메시지, 평가, 결제와 관리자 운영을 연결한 서버
-
-**[저장소 ↗](https://github.com/mannabom/mannabomServer)** · **[← 프로필](../README.md)**
-
-</div>
+<p align="center"><strong><a href="https://github.com/mannabom/mannabomServer">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
 
 | 구분 | 내용 |
 | :---: | :--- |

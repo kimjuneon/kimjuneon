@@ -1,12 +1,8 @@
-<div align="center">
+<p align="center">
+  <a href="https://github.com/89-49/trade-service"><img src="../assets/project-trade-service.svg" width="100%" alt="팔구사구 Trade Service" /></a>
+</p>
 
-# 팔구사구 Trade Service
-
-Kafka 이벤트로 예약 완료와 구매자·판매자의 거래 완료 흐름을 연결하는 마이크로서비스
-
-**[저장소 ↗](https://github.com/89-49/trade-service)** · **[← 프로필](../README.md)**
-
-</div>
+<p align="center"><strong><a href="https://github.com/89-49/trade-service">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
 
 | 구분 | 내용 |
 | :---: | :--- |

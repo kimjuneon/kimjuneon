@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Kim Juneon — Backend Engineer</title>
+  <desc id="desc">Java and Spring backend engineer focused on data, events, and reliability.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.58" stop-color="#0B1B2B"/>
+      <stop offset="1" stop-color="#0F3D3A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94A3B8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+  <circle cx="1010" cy="82" r="235" fill="url(#glow)"/>
+  <path d="M0 276 C210 234 375 332 610 282 C845 232 1015 260 1200 210 L1200 320 L0 320 Z" fill="#0F766E" fill-opacity="0.14"/>
+
+  <rect x="64" y="48" width="204" height="32" rx="16" fill="#14B8A6" fill-opacity="0.13" stroke="#2DD4BF" stroke-opacity="0.45"/>
+  <circle cx="83" cy="64" r="5" fill="#5EEAD4"/>
+  <text x="98" y="69" fill="#99F6E4" font-family="Inter, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">JAVA / SPRING BACKEND</text>
+
+  <text x="64" y="143" fill="#F8FAFC" font-family="Inter, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="800" letter-spacing="1.5">KIM JUNEON</text>
+  <text x="66" y="184" fill="#5EEAD4" font-family="Inter, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="650" letter-spacing="1">DATA · EVENTS · RELIABILITY</text>
+  <text x="66" y="244" fill="#CBD5E1" font-family="Inter, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="500">운영 이후의 변경까지 견디는 백엔드를 만듭니다.</text>
+
+  <rect x="738" y="54" width="396" height="212" rx="18" fill="#020617" fill-opacity="0.76" stroke="#5EEAD4" stroke-opacity="0.25"/>
+  <rect x="738" y="54" width="396" height="38" rx="18" fill="#0F172A"/>
+  <rect x="738" y="76" width="396" height="16" fill="#0F172A"/>
+  <circle cx="762" cy="73" r="5" fill="#FB7185"/>
+  <circle cx="780" cy="73" r="5" fill="#FBBF24"/>
+  <circle cx="798" cy="73" r="5" fill="#34D399"/>
+  <text x="824" y="78" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">backend.java</text>
+
+  <text x="770" y="126" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">class</text>
+  <text x="820" y="126" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Backend</text>
+  <text x="888" y="126" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">{</text>
+  <text x="792" y="160" fill="#C4B5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">focus</text>
+  <text x="846" y="160" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">=</text>
+  <text x="864" y="160" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">["data", "events"];</text>
+  <text x="792" y="194" fill="#C4B5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">design</text>
+  <text x="855" y="194" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">=</text>
+  <text x="873" y="194" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">"reliable";</text>
+  <text x="792" y="228" fill="#C4B5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">ship</text>
+  <text x="837" y="228" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">=</text>
+  <text x="855" y="228" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">"operate";</text>
+  <text x="770" y="252" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">}</text>
+</svg>

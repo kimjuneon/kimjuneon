@@ -1,12 +1,8 @@
-<div align="center">
+<p align="center">
+  <a href="https://github.com/kimjuneon/money-hunter"><img src="../assets/project-money-hunter.svg" width="100%" alt="머니헌터" /></a>
+</p>
 
-# 머니헌터
-
-Apps in Toss 기반의 캐릭터 성장형 리워드 서비스
-
-**[저장소 ↗](https://github.com/kimjuneon/money-hunter)** · **[← 프로필](../README.md)**
-
-</div>
+<p align="center"><strong><a href="https://github.com/kimjuneon/money-hunter">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
 
 | 구분 | 내용 |
 | :---: | :--- |

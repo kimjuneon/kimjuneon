@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="220" viewBox="0 0 580 220" role="img" aria-labelledby="title desc">
+  <title id="title">머니헌터</title>
+  <desc id="desc">Apps in Toss reward platform. DAU grew from 100 to 200.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#10251D"/></linearGradient></defs>
+  <rect x="1" y="1" width="578" height="218" rx="20" fill="url(#bg)" stroke="#264333" stroke-width="2"/>
+  <rect x="0" y="0" width="580" height="6" rx="3" fill="#22C55E"/>
+  <text x="32" y="42" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.8">01 / REWARD PLATFORM</text>
+  <text x="32" y="84" fill="#F8FAFC" font-family="Inter, Pretendard, -apple-system, sans-serif" font-size="30" font-weight="800">머니헌터</text>
+  <text x="32" y="113" fill="#94A3B8" font-family="Inter, Pretendard, -apple-system, sans-serif" font-size="15">Apps in Toss 기반 캐릭터 성장형 서비스</text>
+  <rect x="32" y="140" width="72" height="28" rx="14" fill="#123D2A"/><text x="68" y="159" text-anchor="middle" fill="#BBF7D0" font-family="Inter, sans-serif" font-size="12">Policy</text>
+  <rect x="112" y="140" width="74" height="28" rx="14" fill="#123D2A"/><text x="149" y="159" text-anchor="middle" fill="#BBF7D0" font-family="Inter, sans-serif" font-size="12">Metrics</text>
+  <rect x="194" y="140" width="58" height="28" rx="14" fill="#123D2A"/><text x="223" y="159" text-anchor="middle" fill="#BBF7D0" font-family="Inter, sans-serif" font-size="12">GCP</text>
+  <text x="32" y="196" fill="#64748B" font-family="Inter, Pretendard, -apple-system, sans-serif" font-size="13">운영 정책 · 로그인/IAP · 광고 보상 · 리텐션 지표</text>
+  <circle cx="483" cy="105" r="58" fill="#22C55E" fill-opacity="0.09" stroke="#22C55E" stroke-opacity="0.25"/>
+  <path d="M451 124 L470 104 L486 114 L516 79" fill="none" stroke="#4ADE80" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="483" y="151" text-anchor="middle" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="19" font-weight="800">DAU 100 → 200</text>
+</svg>
