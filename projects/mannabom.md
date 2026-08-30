@@ -1,8 +1,12 @@
+<div align="center">
+
 # 만나봄
 
-[← 프로필로 돌아가기](../README.md) · [Repository ↗](https://github.com/mannabom/mannabomServer)
+프로필·연애관 기반 매칭 이후의 호감, 메시지, 평가, 결제와 관리자 운영을 연결한 서버
 
-> 프로필·연애관 기반 매칭 이후의 호감, 메시지, 평가, 결제와 관리자 운영을 연결한 서버
+**[Repository ↗](https://github.com/mannabom/mannabomServer)** · **[← Profile](../README.md)**
+
+</div>
 
 | 구분 | 내용 |
 | :--- | :--- |
@@ -10,7 +14,7 @@
 | **Stack** | Java, Spring Boot, JPA, Docker, GCP |
 | **Storage** | Local, S3, GCS Adapter |
 
-## 핵심 기여
+<h2 align="center">핵심 기여</h2>
 
 ### 도메인과 데이터 모델
 
@@ -29,4 +33,8 @@
 
 ---
 
-[← Projects로 돌아가기](../README.md#projects)
+<div align="center">
+
+**[← Projects로 돌아가기](../README.md#projects)**
+
+</div>

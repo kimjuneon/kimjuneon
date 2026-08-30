@@ -1,8 +1,12 @@
+<div align="center">
+
 # 팔구사구 Trade Service
 
-[← 프로필로 돌아가기](../README.md) · [Repository ↗](https://github.com/89-49/trade-service)
+Kafka 이벤트로 예약 완료와 구매자·판매자의 거래 완료 흐름을 연결하는 마이크로서비스
 
-> Kafka 이벤트로 예약 완료와 구매자·판매자의 거래 완료 흐름을 연결하는 마이크로서비스
+**[Repository ↗](https://github.com/89-49/trade-service)** · **[← Profile](../README.md)**
+
+</div>
 
 | 구분 | 내용 |
 | :--- | :--- |
@@ -10,7 +14,7 @@
 | **Stack** | Java, Spring Boot, Kafka, Docker |
 | **Architecture** | Hexagonal Architecture, Port/Use Case/Adapter |
 
-## 핵심 기여
+<h2 align="center">핵심 기여</h2>
 
 ### 이벤트 기반 거래 완료
 
@@ -30,4 +34,8 @@
 
 ---
 
-[← Projects로 돌아가기](../README.md#projects)
+<div align="center">
+
+**[← Projects로 돌아가기](../README.md#projects)**
+
+</div>

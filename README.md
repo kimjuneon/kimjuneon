@@ -42,12 +42,11 @@
 
 <h2 align="center">Projects</h2>
 
-| Project | 한 줄 소개 | Focus | Details |
-| :---: | :---: | :---: | :---: |
-| **[머니헌터](https://github.com/kimjuneon/money-hunter)** | Apps in Toss 기반 캐릭터 성장형 리워드 서비스 | 정책 설계 · 운영 지표 · GCP | **[상세 보기 →](./projects/money-hunter.md)** |
-| **[쿠링](https://github.com/ku-ring/ku-ring-backend-web)** | 공지 수집·검색과 FCM 알림을 제공하는 API 서버 | Pagination · Fallback · FCM | **[상세 보기 →](./projects/ku-ring.md)** |
-| **[팔구사구 Trade Service](https://github.com/89-49/trade-service)** | Kafka 이벤트 기반 거래 완료 마이크로서비스 | Kafka · 동시성 · Hexagonal | **[상세 보기 →](./projects/trade-service.md)** |
-| **[만나봄](https://github.com/mannabom/mannabomServer)** | 매칭 이후의 결제·메시지·운영을 연결한 서버 | Storage Port · Security · GCP | **[상세 보기 →](./projects/mannabom.md)** |
+| **[머니헌터](https://github.com/kimjuneon/money-hunter)** | **[쿠링](https://github.com/ku-ring/ku-ring-backend-web)** |
+| :---: | :---: |
+| Apps in Toss 기반 캐릭터 성장형 리워드 서비스<br><br>`Policy` `Metrics` `GCP`<br><br>**[상세 보기 →](./projects/money-hunter.md)** | 공지 수집·검색과 FCM 알림을 제공하는 API 서버<br><br>`Pagination` `Fallback` `FCM`<br><br>**[상세 보기 →](./projects/ku-ring.md)** |
+| **[팔구사구 Trade Service](https://github.com/89-49/trade-service)** | **[만나봄](https://github.com/mannabom/mannabomServer)** |
+| Kafka 이벤트 기반 거래 완료 마이크로서비스<br><br>`Kafka` `Concurrency` `Hexagonal`<br><br>**[상세 보기 →](./projects/trade-service.md)** | 매칭 이후의 결제·메시지·운영을 연결한 서버<br><br>`Storage Port` `Security` `GCP`<br><br>**[상세 보기 →](./projects/mannabom.md)** |
 
 <br />
 
