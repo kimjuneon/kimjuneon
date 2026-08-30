@@ -4,12 +4,12 @@
 
 Apps in Toss 기반의 캐릭터 성장형 리워드 서비스
 
-**[Repository ↗](https://github.com/kimjuneon/money-hunter)** · **[← Profile](../README.md)**
+**[저장소 ↗](https://github.com/kimjuneon/money-hunter)** · **[← 프로필](../README.md)**
 
 </div>
 
 | 구분 | 내용 |
-| :--- | :--- |
+| :---: | :--- |
 | **Focus** | 운영 중 변경 가능한 정책, 인증·결제, 보상 흐름, 운영 지표 |
 | **Stack** | Java, Spring Boot, Docker, GCP |
 | **Impact** | DAU 100명대에서 200명대로 성장 |

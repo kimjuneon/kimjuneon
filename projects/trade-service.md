@@ -4,12 +4,12 @@
 
 Kafka 이벤트로 예약 완료와 구매자·판매자의 거래 완료 흐름을 연결하는 마이크로서비스
 
-**[Repository ↗](https://github.com/89-49/trade-service)** · **[← Profile](../README.md)**
+**[저장소 ↗](https://github.com/89-49/trade-service)** · **[← 프로필](../README.md)**
 
 </div>
 
 | 구분 | 내용 |
-| :--- | :--- |
+| :---: | :--- |
 | **Focus** | 이벤트 처리, 동시성 정합성, 아키텍처 규칙, 분산 추적 |
 | **Stack** | Java, Spring Boot, Kafka, Docker |
 | **Architecture** | Hexagonal Architecture, Port/Use Case/Adapter |

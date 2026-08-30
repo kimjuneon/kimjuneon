@@ -4,12 +4,12 @@
 
 건국대학교 공지를 수집·검색하고 Firebase FCM으로 알림을 전달하는 API 서버
 
-**[Repository ↗](https://github.com/ku-ring/ku-ring-backend-web)** · **[← Profile](../README.md)**
+**[저장소 ↗](https://github.com/ku-ring/ku-ring-backend-web)** · **[← 프로필](../README.md)**
 
 </div>
 
 | 문제 | 해결 | 결과 |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 공지 수집량 증가 | 페이지 단위 수집·병합 | 1,000건 이상의 공지 처리 |
 | HTML 구조 차이 | Fallback parser와 예외 처리 | 파싱 실패 경로 보완 |
 | 메시지·전송 책임 결합 | Port/Adapter로 책임 분리 | 변경 범위와 테스트 경계 축소 |

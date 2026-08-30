@@ -4,12 +4,12 @@
 
 프로필·연애관 기반 매칭 이후의 호감, 메시지, 평가, 결제와 관리자 운영을 연결한 서버
 
-**[Repository ↗](https://github.com/mannabom/mannabomServer)** · **[← Profile](../README.md)**
+**[저장소 ↗](https://github.com/mannabom/mannabomServer)** · **[← 프로필](../README.md)**
 
 </div>
 
 | 구분 | 내용 |
-| :--- | :--- |
+| :---: | :--- |
 | **Focus** | 도메인 모델, 파일 저장소 추상화, 인증·권한, 배포 |
 | **Stack** | Java, Spring Boot, JPA, Docker, GCP |
 | **Storage** | Local, S3, GCS Adapter |
