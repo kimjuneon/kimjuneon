@@ -61,7 +61,7 @@ Java와 Spring Boot를 중심으로 데이터와 이벤트 흐름이 안정적�
 <div align="center">
 
 ![GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimjuneon&theme=github_dark)
-![Repositories per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kimjuneon&theme=github_dark)
+![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kimjuneon&theme=github_dark&utcOffset=9)
 
 </div>
 
