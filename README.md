@@ -16,6 +16,8 @@
 
 <h2 align="center">Focus</h2>
 
+<div align="center">
+
 <table width="100%" align="center">
   <tr>
     <td width="50%" align="center"><strong>Data & Events</strong><br />대량 데이터 · 이벤트 정합성</td>
@@ -26,6 +28,8 @@
     <td width="50%" align="center"><strong>Operations</strong><br />배포 · 관측성 · 운영 지표</td>
   </tr>
 </table>
+
+</div>
 
 <br />
 
@@ -48,6 +52,8 @@
 <br />
 
 <h2 align="center">Projects</h2>
+
+<div align="center">
 
 <table width="100%" align="center">
   <tr>
@@ -80,9 +86,13 @@
   </tr>
 </table>
 
+</div>
+
 <br />
 
 <h2 align="center">Learning & Writing</h2>
+
+<div align="center">
 
 <table width="100%" align="center">
   <tr>
@@ -96,6 +106,8 @@
     </td>
   </tr>
 </table>
+
+</div>
 
 <br />
 
