@@ -1,8 +1,8 @@
-<p align="center">
-  <a href="https://github.com/ku-ring/ku-ring-backend-web"><img src="../assets/project-ku-ring.svg" width="100%" alt="쿠링" /></a>
-</p>
+# 쿠링
 
-<p align="center"><strong><a href="https://github.com/ku-ring/ku-ring-backend-web">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
+> 건국대학교 공지를 수집·검색하고 Firebase FCM으로 알림을 전달하는 API 서버
+
+[← 프로필](https://github.com/kimjuneon) · [저장소 ↗](https://github.com/ku-ring/ku-ring-backend-web)
 
 | 문제 | 해결 | 결과 |
 | :---: | :---: | :---: |
@@ -11,7 +11,7 @@
 | 메시지·전송 책임 결합 | Port/Adapter로 책임 분리 | 변경 범위와 테스트 경계 축소 |
 | 외부 I/O 실패 | 실패 테스트와 retry/recovery | 복구 가능한 수집·전송 흐름 |
 
-<h2 align="center">핵심 기여</h2>
+## 핵심 기여
 
 ### 페이지 단위 공지 수집
 
@@ -32,6 +32,6 @@
 
 <div align="center">
 
-**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
+**[← Projects로 돌아가기](https://github.com/kimjuneon#projects)**
 
 </div>

@@ -1,8 +1,8 @@
-<p align="center">
-  <a href="https://github.com/kimjuneon/money-hunter"><img src="../assets/project-money-hunter.svg" width="100%" alt="머니헌터" /></a>
-</p>
+# 머니헌터
 
-<p align="center"><strong><a href="https://github.com/kimjuneon/money-hunter">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
+> Apps in Toss 기반의 캐릭터 성장형 리워드 서비스
+
+[← 프로필](https://github.com/kimjuneon) · [저장소 ↗](https://github.com/kimjuneon/money-hunter)
 
 | 구분 | 내용 |
 | :---: | :--- |
@@ -10,7 +10,7 @@
 | **Stack** | Java, Spring Boot, Docker, GCP |
 | **Impact** | DAU 100명대에서 200명대로 성장 |
 
-<h2 align="center">핵심 기여</h2>
+## 핵심 기여
 
 ### 운영 중 변경 가능한 게임 정책
 
@@ -31,6 +31,6 @@
 
 <div align="center">
 
-**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
+**[← Projects로 돌아가기](https://github.com/kimjuneon#projects)**
 
 </div>

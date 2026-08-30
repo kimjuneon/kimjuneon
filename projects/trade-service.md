@@ -1,8 +1,8 @@
-<p align="center">
-  <a href="https://github.com/89-49/trade-service"><img src="../assets/project-trade-service.svg" width="100%" alt="팔구사구 Trade Service" /></a>
-</p>
+# 팔구사구 Trade Service
 
-<p align="center"><strong><a href="https://github.com/89-49/trade-service">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
+> Kafka 이벤트로 예약 완료와 구매자·판매자의 거래 완료 흐름을 연결하는 마이크로서비스
+
+[← 프로필](https://github.com/kimjuneon) · [저장소 ↗](https://github.com/89-49/trade-service)
 
 | 구분 | 내용 |
 | :---: | :--- |
@@ -10,7 +10,7 @@
 | **Stack** | Java, Spring Boot, Kafka, Docker |
 | **Architecture** | Hexagonal Architecture, Port/Use Case/Adapter |
 
-<h2 align="center">핵심 기여</h2>
+## 핵심 기여
 
 ### 이벤트 기반 거래 완료
 
@@ -32,6 +32,6 @@
 
 <div align="center">
 
-**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
+**[← Projects로 돌아가기](https://github.com/kimjuneon#projects)**
 
 </div>

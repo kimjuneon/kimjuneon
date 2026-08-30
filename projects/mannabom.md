@@ -1,8 +1,8 @@
-<p align="center">
-  <a href="https://github.com/mannabom/mannabomServer"><img src="../assets/project-mannabom.svg" width="100%" alt="만나봄" /></a>
-</p>
+# 만나봄
 
-<p align="center"><strong><a href="https://github.com/mannabom/mannabomServer">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
+> 프로필·연애관 기반 매칭 이후의 호감, 메시지, 평가, 결제와 관리자 운영을 연결한 서버
+
+[← 프로필](https://github.com/kimjuneon) · [저장소 ↗](https://github.com/mannabom/mannabomServer)
 
 | 구분 | 내용 |
 | :---: | :--- |
@@ -10,7 +10,7 @@
 | **Stack** | Java, Spring Boot, JPA, Docker, GCP |
 | **Storage** | Local, S3, GCS Adapter |
 
-<h2 align="center">핵심 기여</h2>
+## 핵심 기여
 
 ### 도메인과 데이터 모델
 
@@ -31,6 +31,6 @@
 
 <div align="center">
 
-**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
+**[← Projects로 돌아가기](https://github.com/kimjuneon#projects)**
 
 </div>
