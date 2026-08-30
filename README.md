@@ -12,13 +12,17 @@
 
 </div>
 
-## Focus
+<br />
+
+<h2 align="center">Focus</h2>
 
 | Data & Events | Architecture | Reliability | Operations |
 | :---: | :---: | :---: | :---: |
 | 대량 데이터·이벤트 정합성 | Hexagonal·Port/Adapter | 테스트·재시도·복구 | 배포·관측성·운영 지표 |
 
-## Tech Stack
+<br />
+
+<h2 align="center">Tech Stack</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
@@ -34,23 +38,29 @@
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
 </p>
 
-## Projects
+<br />
+
+<h2 align="center">Projects</h2>
 
 | Project | 한 줄 소개 | Focus | Details |
-| :--- | :--- | :--- | :---: |
+| :---: | :---: | :---: | :---: |
 | **[머니헌터](https://github.com/kimjuneon/money-hunter)** | Apps in Toss 기반 캐릭터 성장형 리워드 서비스 | 정책 설계 · 운영 지표 · GCP | **[상세 보기 →](./projects/money-hunter.md)** |
 | **[쿠링](https://github.com/ku-ring/ku-ring-backend-web)** | 공지 수집·검색과 FCM 알림을 제공하는 API 서버 | Pagination · Fallback · FCM | **[상세 보기 →](./projects/ku-ring.md)** |
 | **[팔구사구 Trade Service](https://github.com/89-49/trade-service)** | Kafka 이벤트 기반 거래 완료 마이크로서비스 | Kafka · 동시성 · Hexagonal | **[상세 보기 →](./projects/trade-service.md)** |
 | **[만나봄](https://github.com/mannabom/mannabomServer)** | 매칭 이후의 결제·메시지·운영을 연결한 서버 | Storage Port · Security · GCP | **[상세 보기 →](./projects/mannabom.md)** |
 
-## Learning & Writing
+<br />
+
+<h2 align="center">Learning & Writing</h2>
 
 | | |
-| :--- | :--- |
+| :---: | :---: |
 | **[Today I Learned →](https://github.com/kimjuneon/TIL)** | 프로젝트에서 마주친 문제와 해결 과정을 재현 가능한 기록으로 정리합니다. |
 | **[Velog →](https://velog.io/@juneon/posts)** | 선택지와 구현, 테스트 결과와 한계를 기술 글로 남깁니다. |
 
-## GitHub Stats
+<br />
+
+<h2 align="center">GitHub Stats</h2>
 
 <div align="center">
 
