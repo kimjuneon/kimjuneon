@@ -2,7 +2,7 @@
   <a href="https://github.com/ku-ring/ku-ring-backend-web"><img src="../assets/project-ku-ring.svg" width="100%" alt="쿠링" /></a>
 </p>
 
-<p align="center"><strong><a href="https://github.com/ku-ring/ku-ring-backend-web">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
+<p align="center"><strong><a href="https://github.com/ku-ring/ku-ring-backend-web">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
 
 | 문제 | 해결 | 결과 |
 | :---: | :---: | :---: |
@@ -32,6 +32,6 @@
 
 <div align="center">
 
-**[← Projects로 돌아가기](../README.md#projects)**
+**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
 
 </div>

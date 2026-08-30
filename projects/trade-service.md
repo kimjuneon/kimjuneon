@@ -2,7 +2,7 @@
   <a href="https://github.com/89-49/trade-service"><img src="../assets/project-trade-service.svg" width="100%" alt="팔구사구 Trade Service" /></a>
 </p>
 
-<p align="center"><strong><a href="https://github.com/89-49/trade-service">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
+<p align="center"><strong><a href="https://github.com/89-49/trade-service">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
 
 | 구분 | 내용 |
 | :---: | :--- |
@@ -32,6 +32,6 @@
 
 <div align="center">
 
-**[← Projects로 돌아가기](../README.md#projects)**
+**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
 
 </div>

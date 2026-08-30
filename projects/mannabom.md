@@ -2,7 +2,7 @@
   <a href="https://github.com/mannabom/mannabomServer"><img src="../assets/project-mannabom.svg" width="100%" alt="만나봄" /></a>
 </p>
 
-<p align="center"><strong><a href="https://github.com/mannabom/mannabomServer">저장소 ↗</a></strong> · <strong><a href="../README.md">← 프로필</a></strong></p>
+<p align="center"><strong><a href="https://github.com/mannabom/mannabomServer">저장소 ↗</a></strong> · <strong><a href="https://github.com/kimjuneon">← 프로필</a></strong></p>
 
 | 구분 | 내용 |
 | :---: | :--- |
@@ -31,6 +31,6 @@
 
 <div align="center">
 
-**[← Projects로 돌아가기](../README.md#projects)**
+**[← Selected Work로 돌아가기](https://github.com/kimjuneon#selected-work)**
 
 </div>
