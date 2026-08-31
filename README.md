@@ -54,7 +54,7 @@ Java와 Spring Boot를 중심으로 안정적인 서버와 API를 만듭니다.
 <div align="center">
 
 ![kimjuneon's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimjuneon&theme=github_dark)
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kimjuneon&theme=github_dark)
+![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kimjuneon&theme=github_dark)
 
 </div>
 
