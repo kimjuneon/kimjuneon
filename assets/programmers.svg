@@ -10,10 +10,10 @@
       <text x="30" y="142">순위</text>
     </g>
     <g x="310" fill="#f0f6fc" font-size="18" font-weight="600" text-anchor="end">
-      <text x="310" y="78">74개</text>
-      <text x="310" y="110">1,387점</text>
-      <text x="310" y="142">43,198위</text>
+      <text id="solved" x="310" y="78">74개</text>
+      <text id="score" x="310" y="110">1,387점</text>
+      <text id="rank" x="310" y="142">43,198위</text>
     </g>
-    <text x="30" y="178" fill="#8b949e" font-size="14">2026.11.22 기준</text>
+    <text id="updated" x="30" y="178" fill="#8b949e" font-size="14">2026.11.22 기준</text>
   </g>
 </svg>
