@@ -56,5 +56,17 @@ if __name__ == "__main__":
     try:
         record = fetch_record()
     except HTTPError as error:
+        # Only log known categories, since an error response can include account details.
+        body = error.read(16000).decode("utf-8", errors="replace")
+        try:
+            body = json.dumps(json.loads(body), ensure_ascii=False)
+        except ValueError:
+            pass
+        indicators = ("비밀번호", "이메일", "인증", "소셜", "잠긴", "잠금", "일치",
+                      "password", "credential", "csrf", "captcha", "cloudfront",
+                      "cloudflare", "access denied", "blocked", "forbidden", "로그인")
+        categories = [word for word in indicators if word in body.lower()]
+        print("Response type:", error.headers.get_content_type())
+        print("Recognized terms:", ", ".join(categories) or "none")
         raise SystemExit(f"Programmers returned HTTP {error.code} at {error.filename}") from None
     update_card(Path("assets/programmers.svg"), record, datetime.now(ZoneInfo("Asia/Seoul")).date())
