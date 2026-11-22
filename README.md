@@ -49,14 +49,13 @@ Java와 Spring Boot를 중심으로 안정적인 서버와 API를 만듭니다.
 | [머니헌터](https://github.com/kimjuneon/money-hunter) | 개인 프로젝트 | Apps in Toss 기반 캐릭터 성장형 리워드 웹 게임 서비스 | Java, JavaScript, HTML, CSS, Docker |
 | [trade-service](https://github.com/89-49/trade-service) | 팀 프로젝트 | 거래 도메인을 담당하는 마이크로서비스 프로젝트 | Java, Spring Boot, Docker |
 
-## GitHub Stats
+## Coding Activity
 
-<div align="center">
-
-![kimjuneon's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimjuneon&theme=github_dark)
-![Most Commit Language](./assets/most-commit-language.svg)
-
-</div>
+<p align="center">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kimjuneon&amp;theme=github_dark" alt="kimjuneon's GitHub stats" />
+  <img width="32%" src="./assets/most-commit-language.svg" alt="Top languages by commit" />
+  <img width="32%" src="./assets/programmers.svg" alt="프로그래머스 코딩테스트 통계" />
+</p>
 
 ---
 
