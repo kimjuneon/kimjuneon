@@ -1,30 +1,64 @@
-import json
 import os
+import re
 from datetime import datetime
-from http.cookiejar import CookieJar
 from pathlib import Path
-from urllib.error import HTTPError
-from urllib.request import HTTPCookieProcessor, HTTPRedirectHandler, Request, build_opener
+from urllib.parse import urlsplit
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
-class NoRedirect(HTTPRedirectHandler):
-    def redirect_request(self, req, fp, code, msg, headers, newurl):
-        return None
+
+def page_text(driver):
+    return driver.find_element(By.TAG_NAME, "body").text
+
+
+def require_page(driver, host):
+    if urlsplit(driver.current_url).netloc != host or urlsplit(driver.current_url).scheme != "https":
+        raise RuntimeError("Unexpected website during Programmers sign-in")
+    if "request could not be satisfied" in page_text(driver).lower():
+        raise RuntimeError("Programmers returned a CloudFront denial on the web page")
 
 
 def fetch_record():
-    base = "https://programmers.co.kr/api/v1"
-    session = build_opener(HTTPCookieProcessor(CookieJar()), NoRedirect())
-    credentials = {"user": {"email": os.environ["PROGRAMMERS_TOKEN_ID"],
-                            "password": os.environ["PROGRAMMERS_TOKEN_PW"]}}
-    login = Request(f"{base}/account/sign-in", data=json.dumps(credentials).encode(),
-                    headers={"Content-Type": "application/json", "Accept": "application/json"})
-    with session.open(login, timeout=30):
-        pass
-    with session.open(f"{base}/users/record", timeout=30) as response:
-        return json.load(response)
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--lang=ko-KR")
+    with webdriver.Chrome(options=options) as driver:
+        driver.set_page_load_timeout(45)
+        wait = WebDriverWait(driver, 25)
+        driver.get("https://programmers.co.kr/account/sign_in")
+        require_page(driver, "programmers.co.kr")
+        email = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "input[type=email], input[autocomplete=username], input[placeholder*='이메일']")))
+        password = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "input[type=password]")))
+        require_page(driver, "programmers.co.kr")
+        email.send_keys(os.environ["PROGRAMMERS_TOKEN_ID"])
+        password.send_keys(os.environ["PROGRAMMERS_TOKEN_PW"])
+        button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='로그인하기' or normalize-space()='Log in' or normalize-space()='Sign in']")))
+        button.click()
+        try:
+            wait.until(lambda browser: urlsplit(browser.current_url).path != "/account/sign_in")
+        except TimeoutException:
+            raise RuntimeError("Programmers sign-in form did not complete; verify email login on the website") from None
+        driver.get("https://school.programmers.co.kr/learn/challenges")
+        require_page(driver, "school.programmers.co.kr")
+
+        def statistics(browser):
+            text = page_text(browser)
+            fields = {}
+            for label, unit in (("해결한 문제", "개"), ("점수", "점"), ("순위", "위")):
+                match = re.search(label + r"\s*([0-9][0-9,]*)\s*" + unit, text)
+                if not match:
+                    return False
+                fields[label] = int(match[1].replace(",", ""))
+            return {"codingTest": {"solved": fields["해결한 문제"]},
+                    "ranking": {"score": fields["점수"], "rank": fields["순위"]}}
+
+        return wait.until(statistics, "Signed-in coding statistics were not visible")
 
 
 def update_card(path, record, today):
@@ -53,20 +87,4 @@ def update_card(path, record, today):
 
 
 if __name__ == "__main__":
-    try:
-        record = fetch_record()
-    except HTTPError as error:
-        # Only log known categories, since an error response can include account details.
-        body = error.read(16000).decode("utf-8", errors="replace")
-        try:
-            body = json.dumps(json.loads(body), ensure_ascii=False)
-        except ValueError:
-            pass
-        indicators = ("비밀번호", "이메일", "인증", "소셜", "잠긴", "잠금", "일치",
-                      "password", "credential", "csrf", "captcha", "cloudfront",
-                      "cloudflare", "access denied", "blocked", "forbidden", "로그인")
-        categories = [word for word in indicators if word in body.lower()]
-        print("Response type:", error.headers.get_content_type())
-        print("Recognized terms:", ", ".join(categories) or "none")
-        raise SystemExit(f"Programmers returned HTTP {error.code} at {error.filename}") from None
-    update_card(Path("assets/programmers.svg"), record, datetime.now(ZoneInfo("Asia/Seoul")).date())
+    update_card(Path("assets/programmers.svg"), fetch_record(), datetime.now(ZoneInfo("Asia/Seoul")).date())

@@ -17,6 +17,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
+      - name: Install Selenium
+        run: python3 -m pip install --disable-pip-version-check selenium==4.53.0
+
       - name: Update card from Programmers
         env:
           PROGRAMMERS_TOKEN_ID: ${{ secrets.PROGRAMMERS_TOKEN_ID }}
