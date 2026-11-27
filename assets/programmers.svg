@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200" role="img" aria-labelledby="title desc">
   <title id="title">Programmers</title>
-  <desc id="desc">2026년 11월 27일 기준, 해결한 문제 81개, 점수 1,413점, 순위 37,587위</desc>
+  <desc id="desc">2026년 11월 28일 기준, 해결한 문제 81개, 점수 1,413점, 순위 37,594위</desc>
   <rect x="1" y="1" width="338" height="198" rx="5" fill="#0d1117" stroke="#334155" />
   <g font-family="'Segoe UI', 'Apple SD Gothic Neo', sans-serif">
     <text x="30" y="40" fill="#2dd4bf" font-size="22">Programmers</text>
@@ -12,8 +12,8 @@
     <g x="310" fill="#f0f6fc" font-size="18" font-weight="600" text-anchor="end">
       <text id="solved" x="310" y="78">81개</text>
       <text id="score" x="310" y="110">1,413점</text>
-      <text id="rank" x="310" y="142">37,587위</text>
+      <text id="rank" x="310" y="142">37,594위</text>
     </g>
-    <text id="updated" x="30" y="178" fill="#8b949e" font-size="14">2026.11.27 기준</text>
+    <text id="updated" x="30" y="178" fill="#8b949e" font-size="14">2026.11.28 기준</text>
   </g>
 </svg>
